@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 10px;
+    
+    box-shadow: var(--shadow);
+}
+
+.header h1, .header p{
+    font-size: 1em;
+}
